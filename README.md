@@ -1,4 +1,4 @@
-<h1>👩‍💻30 ideias de projetos em  python para treinar e adicionar ao seu portifólio👩‍💻👨‍💻</h1>
+<h1>👩‍💻27 ideias de projetos em  python para treinar e adicionar ao seu portifólio👩‍💻👨‍💻</h1>
 <h2>iniciante</h2>
 <ol>
     <li>calculadora</li>
@@ -28,8 +28,5 @@
     <li>clone do Instagram</li>
     <li>downloader de videos do youtube</li>
     <li>Jogo cara ou coroa</li>
-    <li>Calendário</li>
-    <li>Calendário</li>
-    <li>Calendário</li>
 
 </ol>
