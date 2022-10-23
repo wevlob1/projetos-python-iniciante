@@ -15,7 +15,7 @@ from time import sleep
     ------------------------------------------------------------------------------------------------------------------------
 """
 historico = ""
-i = ""
+i = "S"
 while i != "N":
     try:
         os.system('cls')
@@ -29,7 +29,9 @@ while i != "N":
         historico += "\n"
         print('===============================================')
         sleep(1)
-        i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
+        while i not in "SN":
+            i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
+        sleep(1)
     except:
         sleep(1)
         os.system('cls')
