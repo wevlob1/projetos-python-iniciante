@@ -17,13 +17,21 @@ while i != "N":
         sleep(1)
         print('===============================================')
         print(f'{ex} = {eval(ex)}')
+        h = f'{ex} = {eval(ex)}'
+        historico += h
         historico += "\n"
         print('===============================================')
         sleep(1)
+        i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
     except:
         sleep(1)
         os.system('cls')
         print(Fore.RED+ 'ops,parece que voce digitou uma expressão invalida'+Fore.RESET)
-        i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
+        while i not in "SN":
+            i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
         sleep(1)
 os.system('cls')
+print('============histórico das Operações============')
+print(historico)
+print('===============================================')
+print(Fore.GREEN+"programa finalizado."+Fore.RESET)
