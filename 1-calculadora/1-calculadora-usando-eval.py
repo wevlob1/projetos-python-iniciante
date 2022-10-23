@@ -2,10 +2,17 @@ import os
 from colorama import Fore,Style,Back
 from time import sleep
 """
+    ------------------------------------------------------------------------------------------------------------------------
+    CALCULADORA BASICA
+    NIVEL DO PROJETO: BÁSICO
+    DESCRIÇÃO: UMA CALCULADORA QUE UTILIZA A FUNÇÃO EVAL() NATIVA DO PYTHON,FUNCIONA DIRETO NO TERMINAL
+    E NO FIM EXIBE O HISTORICO DAS OPERAÇÕES EXECUTADAS.
+
     bibliotecas utilizadas:
     colorama - usado pra colorir o codigo |link da documentação: https://pypi.org/project/colorama/
     os - usado pra limpar o terminal outras funções |link da documentação https://docs.python.org/pt-br/3/library/os.html 
     time - usado pra criar funções de tempo 
+    ------------------------------------------------------------------------------------------------------------------------
 """
 historico = ""
 i = ""
