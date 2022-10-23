@@ -1,7 +1,6 @@
 <h1>👩‍💻30 ideias de projetos em  python para treinar e adicionar ao seu portifólio👩‍💻👨‍💻</h1>
-<h2>iniciante</h2>
 <ol>
-    <li>calculadora</li>
+    <li>calculadora✅</li>
     <li>contador</li>
     <li>jogo da velha</li>
     <li>jogo pedra,papel e tesoura/li>
