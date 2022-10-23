@@ -7,17 +7,19 @@ from time import sleep
     os - usado pra limpar o terminal outras funções |link da documentação https://docs.python.org/pt-br/3/library/os.html 
     time - usado pra criar funções de tempo 
 """
+historico = ""
 i = ""
 while i != "N":
     try:
+        os.system('cls')
         print(Fore.MAGENTA+'=============calculadora em python============='+Fore.RESET)
         ex = input(Fore.GREEN+ 'digite a expressão: '+Fore.RESET)
         sleep(1)
         print('===============================================')
         print(f'{ex} = {eval(ex)}')
+        historico += "\n"
         print('===============================================')
         sleep(1)
-        i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
     except:
         sleep(1)
         os.system('cls')
@@ -25,5 +27,3 @@ while i != "N":
         i = input(Fore.GREEN + 'deseja continuar? [S/N]: '+ Fore.RESET).upper()
         sleep(1)
 os.system('cls')
-print(Fore.GREEN+"programa finalizado."+Fore.RESET)
-    
